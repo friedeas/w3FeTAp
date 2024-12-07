@@ -88,3 +88,5 @@ Actually, I just wanted to show my kids that phones didn't always look like this
         > [!NOTE]
         > Apparently the prefix sip: and the @hostname part was or is not necessary, but it already led to the error message "Error from linphone_core_invite" for me dialing without the prefix. 
 
+## Enthaltene Software
+The folder bell ringer contains code from the project [Telefonklingel mit Tiny25 ansteuern](https://www.mikrocontroller.net/topic/77664) under the [GNU General Public License (GPL)](https://www.gnu.org › gpl-2.0.html). 

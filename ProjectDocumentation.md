@@ -39,3 +39,26 @@ I had to route a trace around a hole with some clearance to ensure the board lie
 ### Completed Perfboard Circuit - Top View
 ![Completed Perfboard Circuit - Top View](/img/Hook%20top%20small.jpg)
 <br/>
+
+## Bell Ringer
+A step-up converter, as some had suggested to ring the bell, only produced a faint clicking sound for me, rather than a proper ringing—but thankfully, A. Lang has already implemented a great solution using an ATTiny25 to generate a 25 Hertz alternating voltage and make the bell ring for one second every 4 seconds.
+
+The forum post by A. Lang can be found here: https://www.mikrocontroller.net/topic/77664
+
+I laid out and built the circuit from A. Lang on a 3x7cm perfboard so that it still fits in the phone.
+
+### Bell Ringer Circuit
+![DIY Bell Ringer Circuit to to control the bell with the Raspberry  Pi Zero and only 3.3 V](bell%20ringer/Bell%20Ringer%20Layout%20small.png)
+<br/>
+<br/>
+
+### Completed Perfboard Bell Ringer Circuit - Bottom View
+At one point I had to use an insulated cable because it was too narrow
+![Completed Perfboard Bell Ringer Circuit - Bottom View](/bell%20ringer/Bell%20Ringer%20Circuit%20back%20small.jpg)
+<br/>
+<br/>
+
+### Completed Perfboard Bell Ringer Circuit - Top View
+![Completed Perfboard Bell Ringer Circuit - Top View](/bell%20ringer/Bell%20Ringer%20Circuit%20small.jpg)
+<br/>
+<br/>
