@@ -50,7 +50,29 @@ I laid out and built the circuit from A. Lang on a 3x7cm perfboard so that it st
 ### Bell Ringer Circuit
 ![DIY Bell Ringer Circuit to to control the bell with the Raspberry  Pi Zero and only 3.3 V](bell%20ringer/Bell%20Ringer%20Layout%20small.png)
 <br/>
-<br/>
+#### Parts List
+* C1 100µ/16V electrolytic capacitor
+* C2 10µ/63V electrolytic capacitor
+* C3 4,7µ/100V electrolytic capacitor
+* C4 100nF ceramic capacitor (KERKO)
+* R1 1k &#8486;
+* R2 56k &#8486;
+* R3 10k &#8486;
+* R4 10k &#8486;
+* R5 56k &#8486;
+* R6 56k &#8486;
+* R7 1k &#8486;
+* R8 56k &#8486;
+* R9 1k &#8486;
+* T1, T2, T3 BC547B NPN bipolar junction transistor
+* T4, T5 BC557B PNP bipolar junction transistor
+* T6 BS170 MOSFET (MOS field effect transistor)
+* L1 470µH plugable inductors
+* D1 Schottky diode (1N 5819)
+* ATtiny 25
+* IC socket, 8-pin
+* Perforated board 30 x 70 mm
+* Some copper wire 0.6mm, tinned and color of your choice
 
 ### Completed Perfboard Bell Ringer Circuit - Bottom View
 At one point I had to use an insulated cable because it was too narrow
