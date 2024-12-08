@@ -1645,7 +1645,7 @@
         <point x="2.2" y="1.8"/>
         <point x="2.0" y="1.6"/>
         <point x="2.0" y="1.5"/>
-        <point x="1.7" y="1.5"/>
+        <point x="1.41" y="1.525"/>
       </controlPoints2>
       <color hex="ff0066"/>
       <pointCount>FOUR</pointCount>
@@ -2491,14 +2491,23 @@
       <arrowStart>false</arrowStart>
       <arrowEnd>false</arrowEnd>
     </diylc.connectivity.Line>
+    <diylc.misc.SVGImage>
+      <name>Svg1</name>
+      <alpha>127</alpha>
+      <point x="4.695" y="1.865"/>
+      <orientation>DEFAULT</orientation>
+      <data>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+CjwhLS0gQ3JlYXRlZCB3aXRoIElua3NjYXBlIChodHRwOi8vd3d3Lmlua3NjYXBlLm9yZy8pIC0tPgoKPHN2ZwogICB3aWR0aD0iNDcuMTM3OTM5bW0iCiAgIGhlaWdodD0iNjcuMDkzNzU4bW0iCiAgIHZpZXdCb3g9IjAgMCA0Ny4xMzc5MzkgNjcuMDkzNzU4IgogICB2ZXJzaW9uPSIxLjEiCiAgIGlkPSJzdmcxIgogICBpbmtzY2FwZTpleHBvcnQtZmlsZW5hbWU9IlJpbmcgYmVsbC5wbmciCiAgIGlua3NjYXBlOmV4cG9ydC14ZHBpPSI5NiIKICAgaW5rc2NhcGU6ZXhwb3J0LXlkcGk9Ijk2IgogICBpbmtzY2FwZTp2ZXJzaW9uPSIxLjQgKDg2YThhZDcsIDIwMjQtMTAtMTEpIgogICBzb2RpcG9kaTpkb2NuYW1lPSJSaW5nIGJlbGwuc3ZnIgogICB4bWxuczppbmtzY2FwZT0iaHR0cDovL3d3dy5pbmtzY2FwZS5vcmcvbmFtZXNwYWNlcy9pbmtzY2FwZSIKICAgeG1sbnM6c29kaXBvZGk9Imh0dHA6Ly9zb2RpcG9kaS5zb3VyY2Vmb3JnZS5uZXQvRFREL3NvZGlwb2RpLTAuZHRkIgogICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciCiAgIHhtbG5zOnN2Zz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxzb2RpcG9kaTpuYW1lZHZpZXcKICAgICBpZD0ibmFtZWR2aWV3MSIKICAgICBwYWdlY29sb3I9IiNmZmZmZmYiCiAgICAgYm9yZGVyY29sb3I9IiMwMDAwMDAiCiAgICAgYm9yZGVyb3BhY2l0eT0iMC4yNSIKICAgICBpbmtzY2FwZTpzaG93cGFnZXNoYWRvdz0iMiIKICAgICBpbmtzY2FwZTpwYWdlb3BhY2l0eT0iMC4wIgogICAgIGlua3NjYXBlOnBhZ2VjaGVja2VyYm9hcmQ9IjAiCiAgICAgaW5rc2NhcGU6ZGVza2NvbG9yPSIjZDFkMWQxIgogICAgIGlua3NjYXBlOmRvY3VtZW50LXVuaXRzPSJtbSIKICAgICBzaG93Z3VpZGVzPSJ0cnVlIgogICAgIGlua3NjYXBlOnpvb209IjEuMDE2NzA0MSIKICAgICBpbmtzY2FwZTpjeD0iNTQuNTg4MTU1IgogICAgIGlua3NjYXBlOmN5PSIxMzkuMTc1MjEiCiAgICAgaW5rc2NhcGU6d2luZG93LXdpZHRoPSIxOTIwIgogICAgIGlua3NjYXBlOndpbmRvdy1oZWlnaHQ9IjEwMDkiCiAgICAgaW5rc2NhcGU6d2luZG93LXg9Ii04IgogICAgIGlua3NjYXBlOndpbmRvdy15PSItOCIKICAgICBpbmtzY2FwZTp3aW5kb3ctbWF4aW1pemVkPSIxIgogICAgIGlua3NjYXBlOmN1cnJlbnQtbGF5ZXI9ImxheWVyMSIgLz4KICA8ZGVmcwogICAgIGlkPSJkZWZzMSIgLz4KICA8ZwogICAgIGlua3NjYXBlOmxhYmVsPSJFYmVuZSAxIgogICAgIGlua3NjYXBlOmdyb3VwbW9kZT0ibGF5ZXIiCiAgICAgaWQ9ImxheWVyMSIKICAgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtODIuNDA4NTIsLTY1LjUwOTI4NykiPgogICAgPGNpcmNsZQogICAgICAgc3R5bGU9ImZpbGw6I2YxZjFmMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4yNjQ1ODMiCiAgICAgICBpZD0icGF0aDEyIgogICAgICAgY3g9IjkzLjIyMDk2MyIKICAgICAgIGN5PSI4NS42OTE1MDUiCiAgICAgICByPSIxLjk1MTc3MjUiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojZjFmMWYxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMTItMiIKICAgICAgIGN4PSI5My4yMjQ0OCIKICAgICAgIGN5PSIxMTIuNzM3NTYiCiAgICAgICByPSIxLjk1MTc3MjUiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojYzBjMGMwO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMSIKICAgICAgIGN4PSIxMTMuOTA1MiIKICAgICAgIGN5PSI4MS4xNTA1NTEiCiAgICAgICByPSIxNS42NDEyNjQiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojNTE1MTUxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMiIKICAgICAgIGN4PSIxMTMuODEzMTkiCiAgICAgICBjeT0iODEuNDcyNTgiCiAgICAgICByPSIxLjQ3MjExOSIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojOTY5Njk2O2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJyZWN0MiIKICAgICAgIHdpZHRoPSIyLjgwNjIyMSIKICAgICAgIGhlaWdodD0iMS4wNTgwODI2IgogICAgICAgeD0iMTEyLjQzMzA4IgogICAgICAgeT0iODAuOTIwNTQiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojNTE1MTUxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMi0xIgogICAgICAgY3g9IjkzLjIyNzE4OCIKICAgICAgIGN5PSI4NS42NzA0NzkiCiAgICAgICByPSIxLjQ3MjExOSIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojOTY5Njk2O2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJyZWN0Mi04IgogICAgICAgd2lkdGg9IjIuODA2MjIxIgogICAgICAgaGVpZ2h0PSIxLjA1ODA4MjYiCiAgICAgICB4PSI5MS44NDcwNzYiCiAgICAgICB5PSI4NS4xMTg0MzkiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojNTE1MTUxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMi0xLTkiCiAgICAgICBjeD0iOTMuMjA4OTIzIgogICAgICAgY3k9IjExMi43MTc2NyIKICAgICAgIHI9IjEuNDcyMTE5IiAvPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiM5Njk2OTY7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjAuMjY0NTgzIgogICAgICAgaWQ9InJlY3QyLTgtNSIKICAgICAgIHdpZHRoPSIyLjgwNjIyMSIKICAgICAgIGhlaWdodD0iMS4wNTgwODI2IgogICAgICAgeD0iOTEuODI4ODEyIgogICAgICAgeT0iMTEyLjE2NTYzIiAvPgogICAgPGNpcmNsZQogICAgICAgc3R5bGU9ImZpbGw6I2MwYzBjMDtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4yNjQ1ODMiCiAgICAgICBpZD0icGF0aDEtOCIKICAgICAgIGN4PSIxMTMuNzczMyIKICAgICAgIGN5PSIxMTYuOTYxNzgiCiAgICAgICByPSIxNS42NDEyNjQiIC8+CiAgICA8Y2lyY2xlCiAgICAgICBzdHlsZT0iZmlsbDojNTE1MTUxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJwYXRoMi04IgogICAgICAgY3g9IjExMy42ODEyOSIKICAgICAgIGN5PSIxMTcuMjgzODEiCiAgICAgICByPSIxLjQ3MjExOSIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojOTY5Njk2O2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJyZWN0Mi0yIgogICAgICAgd2lkdGg9IjIuODA2MjIxIgogICAgICAgaGVpZ2h0PSIxLjA1ODA4MjYiCiAgICAgICB4PSIxMTIuMzAxMTkiCiAgICAgICB5PSIxMTYuNzMxNzciIC8+CiAgICA8cmVjdAogICAgICAgc3R5bGU9ImZpbGw6Izk2OTY5NjtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4yNjQ1ODMiCiAgICAgICBpZD0icmVjdDMiCiAgICAgICB3aWR0aD0iMzguMTI0NjE5IgogICAgICAgaGVpZ2h0PSIyLjA4MTg5MDgiCiAgICAgICB4PSI4NC4wNTYzMjgiCiAgICAgICB5PSI5Ny45Nzg5NzMiIC8+CiAgICA8cmVjdAogICAgICAgc3R5bGU9ImZpbGw6Izk2OTY5NjtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4yNjQ1ODMiCiAgICAgICBpZD0icmVjdDMtNSIKICAgICAgIHdpZHRoPSI0LjkzNDMxMDkiCiAgICAgICBoZWlnaHQ9IjQuMDU1OTkwNyIKICAgICAgIHg9IjgyLjQyMDY0NyIKICAgICAgIHk9Ijk2Ljk3MDgyNSIgLz4KICAgIDxwYXRoCiAgICAgICBzdHlsZT0iZmlsbDojOTY5Njk2O2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGQ9Im0gMTE2LjE5NTUyLDk5LjAxOTkyIDExLjQ1MDQsLTMuMjUyOTU0IHYgNi4yNDU2NzQgeiIKICAgICAgIGlkPSJwYXRoMyIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojZjFmMWYxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjI2NDU4MyIKICAgICAgIGlkPSJyZWN0NCIKICAgICAgIHdpZHRoPSI5Ljc1ODg1ODciCiAgICAgICBoZWlnaHQ9IjQuOTQ0NDkwOSIKICAgICAgIHg9Ijg4LjM1MDIyNyIKICAgICAgIHk9Ijk2LjY3Nzc5NSIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojZjFmMWYxO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjA5MzcwMTkiCiAgICAgICBpZD0icmVjdDQtMiIKICAgICAgIHdpZHRoPSI5Ljc1ODg1ODciCiAgICAgICBoZWlnaHQ9IjAuNjIwMTQxNDUiCiAgICAgICB4PSI4OC40NTk1MTgiCiAgICAgICB5PSI4OS41ODA1MzYiIC8+CiAgICA8cmVjdAogICAgICAgc3R5bGU9ImZpbGw6I2YxZjFmMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4wOTM3MDE5IgogICAgICAgaWQ9InJlY3Q0LTItOCIKICAgICAgIHdpZHRoPSI5Ljc1ODg1ODciCiAgICAgICBoZWlnaHQ9IjAuNjIwMTQxNDUiCiAgICAgICB4PSI4OC40MTc4MzEiCiAgICAgICB5PSIxMDguMTUyNjgiIC8+CiAgICA8cmVjdAogICAgICAgc3R5bGU9ImZpbGw6I2YxZjFmMTtmaWxsLW9wYWNpdHk6MTtzdHJva2Utd2lkdGg6MC4wODQ5NTE3IgogICAgICAgaWQ9InJlY3Q0LTItOC0xIgogICAgICAgd2lkdGg9IjEuOTg0Mjk4NSIKICAgICAgIGhlaWdodD0iMi41MDY4NTQ4IgogICAgICAgeD0iOTIuMjMzMTU0IgogICAgICAgeT0iMTA4LjcwMjUyIiAvPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiNmMWYxZjE7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjAuMDg0OTUxNyIKICAgICAgIGlkPSJyZWN0NC0yLTgtMS03IgogICAgICAgd2lkdGg9IjEuOTg0Mjk4NSIKICAgICAgIGhlaWdodD0iMi41MDY4NTQ4IgogICAgICAgeD0iOTIuMTgxMjgyIgogICAgICAgeT0iODcuMTM1NDM3IiAvPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiNmZmQ0MmE7c3Ryb2tlLXdpZHRoOjAuMjY0NTgzIgogICAgICAgaWQ9InJlY3Q1IgogICAgICAgd2lkdGg9IjguMDY3MzI1NiIKICAgICAgIGhlaWdodD0iNi41MDU5MDgiCiAgICAgICB4PSI4OS4xOTYwMDciCiAgICAgICB5PSI5MC4yMzY5NDYiIC8+CiAgICA8cmVjdAogICAgICAgc3R5bGU9ImZpbGw6I2ZmZDQyYTtzdHJva2Utd2lkdGg6MC4yNjQ1ODMiCiAgICAgICBpZD0icmVjdDUtMSIKICAgICAgIHdpZHRoPSI4LjA2NzMyNTYiCiAgICAgICBoZWlnaHQ9IjYuNTA1OTA4IgogICAgICAgeD0iODkuMjM4MzM1IgogICAgICAgeT0iMTAxLjU5OTU3IiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiM4MDgwODA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjAuMjY0NTgzIgogICAgICAgZD0ibSA4Mi40Mzk0MDUsOTYuOTc1ODM0IHYgLTEuNTE4MTIxIGwgNS40Mjg0NCwtNi40NDA1MjEgMC4wOTIwMSw1Ljk4MDQ4MiAtNC40NjIzNiwwLjkyMDA3NiB2IDEuMTUwMDkzIHoiCiAgICAgICBpZD0icGF0aDExIiAvPgogICAgPHBhdGgKICAgICAgIHN0eWxlPSJmaWxsOiM4MDgwODA7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjAuMjY0NTgzIgogICAgICAgZD0ibSA4Mi40MDg1MiwxMDEuMDMyNTYgdiAxLjUxODEyIGwgNS40Mjg0NCw2LjQ0MDUyIDAuMDkyMDEsLTUuOTgwNDggLTQuNDYyMzYsLTAuOTIwMDggdiAtMS4xNTAwOSB6IgogICAgICAgaWQ9InBhdGgxMS0xIiAvPgogICAgPHJlY3QKICAgICAgIHN0eWxlPSJmaWxsOiNiM2IzYjM7ZmlsbC1vcGFjaXR5OjE7c3Ryb2tlLXdpZHRoOjAuMTQwNjc0IgogICAgICAgaWQ9InJlY3QxMiIKICAgICAgIHdpZHRoPSIyLjMwOTU5NzUiCiAgICAgICBoZWlnaHQ9IjEuMzk4NzcwMiIKICAgICAgIHg9Ijg5LjkxMTY1MiIKICAgICAgIHk9Ijg4LjE4NzU4NCIgLz4KICAgIDxyZWN0CiAgICAgICBzdHlsZT0iZmlsbDojYjNiM2IzO2ZpbGwtb3BhY2l0eToxO3N0cm9rZS13aWR0aDowLjE0MDY3NCIKICAgICAgIGlkPSJyZWN0MTItNyIKICAgICAgIHdpZHRoPSIyLjMwOTU5NzUiCiAgICAgICBoZWlnaHQ9IjEuMzk4NzcwMiIKICAgICAgIHg9Ijg5LjkyMzg1MSIKICAgICAgIHk9IjEwOC43NjU1IiAvPgogIDwvZz4KPC9zdmc+Cg==</data>
+      <newScale>25</newScale>
+      <sizingMode>Scale</sizingMode>
+    </diylc.misc.SVGImage>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
       <alpha>127</alpha>
       <controlPoints2>
         <point x="4.5" y="2.3"/>
-        <point x="5.0" y="2.3"/>
-        <point x="4.9" y="2.3"/>
-        <point x="5.2" y="2.3"/>
+        <point x="4.69" y="2.3099999999999996"/>
+        <point x="4.755000000000001" y="2.3099999999999996"/>
+        <point x="4.84" y="2.3099999999999996"/>
       </controlPoints2>
       <color hex="ff0033"/>
       <pointCount>FOUR</pointCount>
@@ -2514,9 +2523,9 @@
       <alpha>127</alpha>
       <controlPoints2>
         <point x="4.5" y="2.7"/>
-        <point x="5.0" y="2.8"/>
+        <point x="4.74" y="2.76"/>
         <point x="4.8" y="2.7"/>
-        <point x="5.2" y="2.7"/>
+        <point x="4.85" y="2.7"/>
       </controlPoints2>
       <color hex="000000"/>
       <pointCount>FOUR</pointCount>
@@ -2540,7 +2549,7 @@
     <diylc.misc.Label>
       <name>LAB2</name>
       <point x="3.556692913385827" y="1.2692913385826774"/>
-      <text>1.0.0</text>
+      <text>1.0.1</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -2560,7 +2569,7 @@
     <diylc.misc.Label>
       <name>LAB4</name>
       <point x="2.533070866141732" y="1.2692913385826774"/>
-      <text>12/06/2024</text>
+      <text>12/08/2024</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
@@ -2627,24 +2636,67 @@
       <verticalAlignment>CENTER</verticalAlignment>
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
+    <diylc.misc.WrapLabel>
+      <name>L2</name>
+      <controlPoints>
+        <point x="4.85" y="1.69"/>
+        <point x="5.26" y="1.79"/>
+      </controlPoints>
+      <firstPoint x="4.85" y="1.69"/>
+      <secondPoint x="5.26" y="1.79"/>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <value>Original ring of the phone</value>
+    </diylc.misc.WrapLabel>
+    <diylc.misc.Label>
+      <name>LAB11</name>
+      <point x="1.45" y="2.565"/>
+      <text>GND</text>
+      <font reference="../../diylc.misc.WrapLabel/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB12</name>
+      <point x="1.61" y="1.67"/>
+      <text>VCC (min 2,8V)</text>
+      <font reference="../../diylc.misc.WrapLabel/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB13</name>
+      <point x="1.59" y="2.185"/>
+      <text>control input &lt;br&gt;(low to activate)</text>
+      <font reference="../../diylc.misc.WrapLabel/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[4]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
-      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[4]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[9]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
     </set>
   </groups>
   <lockedLayers/>
