@@ -45,7 +45,7 @@ A step-up converter, as some had suggested to ring the bell, only produced a fai
 
 The forum post by A. Lang can be found here: https://www.mikrocontroller.net/topic/77664
 
-I used [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) to design and built the circuit from A. Lang on a 30 x 70 mm perfboard, so that it still fits in the phone.
+I used [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) to [design](/bell%20ringer/Bell%20Ringer%20Layout.diy) and built the circuit from A. Lang on a 30 x 70 mm perfboard, so that it still fits in the phone.
 
 ### Bell Ringer Circuit
 ![DIY Bell Ringer Circuit to to control the bell with the Raspberry  Pi Zero and only 3.3 V](bell%20ringer/Bell%20Ringer%20Layout%20small.png)
