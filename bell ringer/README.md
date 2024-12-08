@@ -2,7 +2,7 @@ This folder contains code from the project [Telefonklingel mit Tiny25 ansteuern]
 
 The following files have been copied from the project
 * bimmel.png
-* /telefon.c/telefon.c.ino
+* /telefon.c/telefon.c
 
 The following files have ben created based on the previously mentioned project files and are therefore licenced under GNU General Public License, Version 2
 
