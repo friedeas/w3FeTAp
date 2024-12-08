@@ -12,6 +12,7 @@ Actually, I just wanted to show my kids that phones didn't always look like this
 * USB sound card (I used the LOGILINK UA0078)
 * USB to micro USB adapter
 * A few small parts like jack plugs and cables
+* [ATTiny25 based circuit](bell%20ringer/README.md) to generate 25 Hertz alternating voltage to rin the bell (buck–boost converter solution didn't work well enough for me)
 
 ## Preparing and testing the system
 1. Follow the instruction here: https://github.com/raspberrypi/rpi-imager to install the Raspberry Pi Imager for your operating system
