@@ -67,7 +67,7 @@ I used [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) to [d
 * T1, T2, T3 BC547B NPN bipolar junction transistor
 * T4, T5 BC557B PNP bipolar junction transistor
 * T6 BS170 MOSFET (MOS field effect transistor)
-* L1 470µH plugable inductors
+* L1 470µH plugable inductor
 * D1 Schottky diode (1N 5819)
 * ATtiny 25
 * IC socket, 8-pin
