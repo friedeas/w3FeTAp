@@ -18,8 +18,8 @@ try:
 except KeyboardInterrupt:      
     print("Program aborted")
   
-except:      
-    print("Error or exception occurred, aborting program")  
+except Exception as error:
+    print("Error or exception occurred, aborting program", error)  
   
 finally:  
     GPIO.cleanup() # this ensures a clean exit  
