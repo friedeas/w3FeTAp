@@ -90,4 +90,6 @@ Actually, I just wanted to show my kids that phones didn't always look like this
         > Apparently the prefix sip: and the @hostname part was or is not necessary, but it already led to the error message "Error from linphone_core_invite" for me dialing without the prefix. 
 
 ## Third-Party Software
-The folder "[bell ringer](bell%20ringer/)" contains code from the project [Telefonklingel mit Tiny25 ansteuern](https://www.mikrocontroller.net/topic/77664) under the [GNU General Public License, Version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html.en). 
+The folder "[bell ringer](bell%20ringer/)" contains code from the project [Telefonklingel mit Tiny25 ansteuern](https://www.mikrocontroller.net/topic/77664) under the [GNU General Public License, Version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html.en).
+
+The folder [audio](audio/) containse the file 1TR110-1_Kap8.1_Waehlton.ogg, created by arvedkrynil, that is licensed under the Creative Commons Attribution-ShareAlike [3.0 Unported](https://creativecommons.org/licenses/by-sa/3.0/), [2.5 Generic](https://creativecommons.org/licenses/by-sa/2.5/), [2.0 Generic](https://creativecommons.org/licenses/by-sa/2.0/) and [1.0 Generic](https://creativecommons.org/licenses/by-sa/1.0/). Source https://de.wikipedia.org/wiki/Datei:1TR110-1_Kap8.1_Waehlton.ogg

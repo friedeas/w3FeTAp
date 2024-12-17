@@ -11,7 +11,6 @@ try:
   GPIO.setup(hookIn1, GPIO.IN)
   GPIO.setup(hookIn2, GPIO.IN)
   GPIO.setup(hookOut, GPIO.OUT)
-
   GPIO.output(hookOut, GPIO.HIGH)
 
   def checkState(param):
@@ -21,7 +20,6 @@ try:
         print("HookIn 2 is high => The receiver is on the hook")    
 
   GPIO.add_event_detect(hookIn1, GPIO.BOTH, callback=checkState, bouncetime=200 )
-#  GPIO.add_event_detect(hookIn2, GPIO.FALLING, callback=checkState, bouncetime=100)
 
   while True:
      checkState(None)
