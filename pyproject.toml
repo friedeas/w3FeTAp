@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "w3_fetap"
+authors = [
+  { name="friedeas", email="friedeas@googlemail.com" },
+]
+description = "Software for a FeTap 791-1a Pi Zero W based VoIP phone"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License 2.0 (Apache-2.0)",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "rpi-lgpio >= 0.6",    
+    "python-statemachine >= 2.5.0",
+    "simpleaudio >= 1.0.4",
+    "PyOgg >= 0.6.14a1",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/friedeas/w3FeTAp"
+Issues = "https://github.com/friedeas/w3FeTAp/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]  # list of folders that contain the packages (["."] by default)
+
+[tool.setuptools.dynamic]
+version = {attr = "w3_fetap.__version__"}
+
+[project.scripts]
+start_w3FeTAp = "w3_fetap:w3_fetap_app"

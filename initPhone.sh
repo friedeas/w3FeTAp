@@ -18,6 +18,6 @@ echo 'Configuring ring'
 echo 'Soundcard ring configured'
 sleep 1
 echo 'Registering SIP account'
-/usr/bin/linphonecsh register --username $username --host $host --password $password
+/usr/bin/linphonecsh register --username "${username}" --host "${host}" --password "${password}"
 echo 'User account registered'
-sleep 1
+sleep 5
