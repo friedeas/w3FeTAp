@@ -62,6 +62,8 @@ I had to route a trace around a hole with some clearance to ensure the board lie
 <br/>
 ## Duo-LED control circuit
 The GPIO outputs of the Raspberry PI do not provide enough current for the Duo-LED. Therefore, I built this small circuit that uses the 5 volt power supply and is controlled via two NPN BC547 transistors. With two 1 k&#8486; resistors and the appropriate LED resistors, the circuit is complete.
+<br/>
+<br/>
 ![Duo-LED control circuit](/doc/LED%20Ctl%20small.png)
 <br/>
 <br/>

@@ -35,12 +35,12 @@ Actually, I just wanted to show my kids that phones didn't always look like this
     $ sudo poweroff
     ```
     * Connect the USB sound card via the micro USB adapter
-7. Set PulseAudio as the audio configuration
+6. Set PulseAudio as the audio configuration
     ```Shell
     $ sudo raspi-config
     ```
     * Advanced Options ->  Audio Config -> PulseAudio
-8. Test the audio setup
+7. Test the audio setup
     * Connect a headphone and an microphone with the USB sound card
     * Check the output
         ```Shell
@@ -60,10 +60,10 @@ Actually, I just wanted to show my kids that phones didn't always look like this
     > In case of issues try to solve them. This page could be helpful https://wiki.archlinux.org/title/PulseAudio Troubleshooting#Microphone_not_detected_by_PulseAudio
 
     <br>
-9. Configure an IP phone account
+8. Configure an IP phone account
     * Use an Fritzbox to configure an IP phone (german documentation) https://blog.hommel-net.de/archives/556-Telefonieren-unter-Linux-mit-Linphone-und-der-Fritzbox.html
     * Use any other VoIP provider account
-10. Make a test call
+9. Make a test call
     * Prepare Linphone
         ```Shell
         $ linphonecsh init
@@ -71,29 +71,36 @@ Actually, I just wanted to show my kids that phones didn't always look like this
         $ linphonecsh soundcard ring
         $ linphonecsh register --username YOUR_USER_NAME --host 192.168.178.1 --password YOUR_PASSWORD
         ```
-        <br>
+        </br>
 
         > [!TIP]
         > Make sure to use the username and password of your IP phone account
         > Replace the IP 192.168.178.1 with the IP of your Fritzbox or server name of your VoIP provider
 
-        <br>
+        </br>
 
     * Initiate an outbound SIP call
         ```Shell
         $ linphonecsh dial 'sip:**610@192.168.178.1'
         ```
-        <br>
+        </br>
 
         > [!TIP]
         > **610 is the internal number of a phone regisered as a IP phone on a Fritzbox.
         > Replace replace this with your target phone number or matching internal number
 
-        <br>
+        </br>
 
         > [!NOTE]
-        > Apparently the prefix sip: and the @hostname part was or is not necessary, but it already led to the error message "Error from linphone_core_invite" for me dialing without the prefix. 
-11. Setup Python and install the project
+        > Apparently the prefix sip: and the @hostname part was or is not necessary, but it already led to the error message "Error from linphone_core_invite" for me dialing without the prefix. But I assume that it is usually because the registration failed
+
+        </br>
+
+        > [!TIP]
+        > This command can be used to check if the registration was successful.</br>
+        > $ linphonecsh status register
+
+10. Setup Python and install the project
     * Change to the home directory
     ```Shell
     $ cd ~
@@ -114,12 +121,12 @@ Actually, I just wanted to show my kids that phones didn't always look like this
     ```Shell
     $ pip install -e .
     ```
-12. Start the w3FeTAp app manually
+11. Start the w3FeTAp app manually
     * Configure your SIP account
-    The sip.config file nned to contain the following variables</br>
+    The sip.config file ned to contain the following variables:</br></br>
     username=</br>
     host=</br>
-    password=</br>
+    password=</br></br>
     ```Shell
     $ nano ~/w3FeTAp/sip.config
     ```    
@@ -129,7 +136,7 @@ Actually, I just wanted to show my kids that phones didn't always look like this
     ```
     * If everything worked well, the green LED should flash briefly and then remain permanently green and no error messages should appear in the console.
     * If you encounter issues try to use the Python scripts in the tests folder to solve them
-13. Automate the start if you wish
+12. Automate the start if you wish
     * Use .bashrc to automatically start w3FeTAp
     ```Shell
     $ nano .bashrc

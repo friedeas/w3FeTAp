@@ -25,22 +25,26 @@ After the handset worked without any problems, I looked at how the most importan
 <br/>
 
 ## DIY Hook Switch Circuit
-I carefully desoldered the switch from the phone's original circuit board and embedded it in a small circuit on a 5 x 7 cm perfboard.
+I carefully desoldered the switch from the phone's original circuit board and embedded it in a small circuit on a 5 x 7 cm perfboard.</br>
 ![Completed Perfboard Circuit - Top View](/img/Hook%20top%20small.jpg)
+</br>
 Later I extended the circuit a bit and added pull-down resistors for the two different signal lines of the rotary dial.
 
 ## Bell Ringer
 A step-up converter, as some had suggested to ring the bell, only produced a faint clicking sound for me, rather than a proper ringing—but thankfully, A. Lang has already implemented a great solution using an ATTiny25 to generate a 25 Hertz alternating voltage and make the bell ring for one second every 4 seconds.
 
 The forum post by A. Lang can be found here: https://www.mikrocontroller.net/topic/77664
-
+</br>
+</br>
 ![Circuit diagram by A. Lang](/bell%20ringer/bimmel.png)
-
+</br>
+</br>
 I first built and tested the circuit on a breadboard.
+</br>
 ![Breadboard test setup of the bell circuit](/doc/Breadboard%20test%20circuit.jpg)
-
+</br>
 After successful testing, I designed a compact circuit that also fits well into the phone. I used [DIY Layout Creator](https://github.com/bancika/diy-layout-creator) to [design](/bell%20ringer/Bell%20Ringer%20Layout.diy) and built the circuit from A. Lang on a 30 x 70 mm perfboard.
-
+</br>
 ![Completed Perfboard Bell Ringer Circuit - Top View](/bell%20ringer/Bell%20Ringer%20Circuit%20small.jpg)
 </br>
 </br>
@@ -65,13 +69,16 @@ After several iterations and a few failures, the end result looked okay.
 The phone should feel and sound as much as possible like the phone from my childhood memories. The first disappointment, or challenge, was that VoIP phones do not use an acoustic signal to indicate to the user that a call can be made. This behavior of playing the so-called dial tone when picking up the handset had to be reproduced. Luckily I found this continuous tone here: https://de.wikipedia.org/wiki/Datei:1TR110-1_Kap8.1_Waehlton.ogg licenced under the Creative Commons. (see [README.md](/audio/README.md) for more details)
 
 For the implementation I used the python statemachine, which created this nice diagram via Graphviz.
+</br>
+</br>
 ![w3FeTAp Rotary Dial Telephone State Machine](/doc/RotaryDialTelephoneStateMachine.png)
-
-The final challenge was to realize the automatic start of the software. Normally I would choose the systemd route for this task, which in this case turned out to be too complicated. In addition to Linphone, the software also requires an initialized PulseAudio stack, therefore the way via a start script in the .bashrc proved to be much easier. The only challenge that still needed to be solved was to build a waiting loop for the network availability into the software.
+</br>
+</br>
+The final challenge was to realize the automatic start of the software. Normally I would choose the systemd route for this task, which in this case turned out to be quite complicated. In addition to Linphone, the software also requires an initialized PulseAudio stack, therefore the way via a start script in the .bashrc proved to be much easier. The only challenge that still needed to be solved was to build a waiting loop for the network availability into the software.
 
 ## Conclusion
 In addition to some Python, I also learned a little about electronics, capacitors and circuits in general. However, the following points surprised me.
-* This postal telephone from the 80s could easily be disassembled down to the smallest part and was still in very good condition after all this time.
+* This telephone from the 80s could easily be disassembled down to the smallest part and was still in very good condition after all this time.
 * It is somewhat shocking how little of it remains today when you compare it to current consumer electronics
 * My children had to learn how to use the rotary dial and that you have to pick up the receiver before dialing
 * Even the simple and relatively straightforward technique cannot be used without explanation if the context of experience is completely different
