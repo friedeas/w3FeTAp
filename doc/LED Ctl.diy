@@ -101,8 +101,8 @@
       <width value="5.0" unit="mm"/>
       <points>
         <point x="3.7" y="3.6"/>
-        <point x="3.8" y="3.5"/>
-        <point x="3.75" y="3.55"/>
+        <point x="3.7" y="3.5"/>
+        <point x="3.7" y="3.55"/>
       </points>
       <bodyColor hex="5dfc0a"/>
       <borderColor hex="41b007"/>
@@ -122,8 +122,8 @@
       <width value="5.0" unit="mm"/>
       <points>
         <point x="3.7" y="3.4"/>
-        <point x="3.8" y="3.5"/>
-        <point x="3.75" y="3.45"/>
+        <point x="3.7" y="3.5"/>
+        <point x="3.7" y="3.45"/>
       </points>
       <bodyColor hex="ff0033"/>
       <borderColor hex="ff6600"/>
@@ -302,7 +302,7 @@
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
-      <style>DASHED</style>
+      <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
@@ -318,14 +318,14 @@
         <point x="3.2" y="3.3"/>
         <point x="3.7" y="3.3"/>
       </controlPoints2>
-      <color hex="ff0033"/>
+      <color hex="ff9900"/>
       <pointCount>FOUR</pointCount>
-      <style>DASHED</style>
+      <style>SOLID</style>
       <smooth>true</smooth>
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
-      <stripeColor hex="ff0033"/>
+      <stripeColor hex="ffcc00"/>
     </diylc.connectivity.HookupWire>
     <diylc.semiconductors.TransistorTO92>
       <name>Q1</name>
@@ -381,6 +381,46 @@
       <striped>false</striped>
       <stripeColor hex="ff0000"/>
     </diylc.connectivity.HookupWire>
+    <diylc.misc.Label>
+      <name>LAB1</name>
+      <point x="2.545" y="3.005"/>
+      <text>GND</text>
+      <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB2</name>
+      <point x="2.505" y="2.2"/>
+      <text>VCC 5 V</text>
+      <font reference="../../diylc.misc.Label/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB3</name>
+      <point x="2.465" y="2.7"/>
+      <text>Red LED ctl.</text>
+      <font reference="../../diylc.misc.Label/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB4</name>
+      <point x="2.4" y="3.2"/>
+      <text>Green LED ctl.</text>
+      <font reference="../../diylc.misc.Label/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups/>
   <lockedLayers/>

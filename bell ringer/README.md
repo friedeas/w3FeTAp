@@ -8,6 +8,6 @@ The following files have been copied from the project <br>
 The following files have ben created based on the previously mentioned project files and are therefore licenced under GNU General Public License, Version 2<br>
 &copy; A. Friedel 2024
 
+* Bell Ringer Layout.png
 * Bell Ringer Layout small.png
 * Bell Ringer Layout.diy
-* Bell Ringer Layout.png

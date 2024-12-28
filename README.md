@@ -1,18 +1,23 @@
 # w3FeTAp
 Converting a Fernsprechtischapparat (FeTap) 791-1 into a VoIP phone utilizing a Pi Zero W, Linphone and some Python code. And so an old-fashioned device from the 80s becomes a top modern World Wide Web Telephone Table Device, or in short w3FeTAp.
 
+In the [project documentation](ProjectDocumentation.md) I show the individual steps of the assembly process.
+
 ## Seriously?
 Actually, I just wanted to show my kids that phones didn't always look like this. I got the FeTap 791-1 cheaply on eBay and didn't want to let it just sit around uselessly. Fortunately, I came across these two websites, which made it easy for me to get started.
 * [FeTaPi](https://git.kasiandras-dreams.de/Kasiandra/fetapi)
 * [VoIP-FeTAp](https://wiki.lugsaar.de/projekte/ip-fetap)
 
 ## Which parts did I use
-* FeTap 791-1
+* [FeTap 791-1](https://de.wikipedia.org/wiki/Fernsprechtischapparat#FeTAp_79)
 * Raspberry Pi Zero W v.1.1
 * USB sound card (I used the LogiLink UA0078)
 * USB to micro USB adapter
-* A few small parts like jack plugs and cables
-* [ATTiny25 based circuit](bell%20ringer/README.md) to generate 25 Hertz alternating voltage to rin the bell (buck–boost converter solution didn't work well enough for me)
+* [ATTiny25 based circuit](/doc/Circuits.md#bell-ringer-circuit) to generate 25 Hertz alternating voltage to rin the bell (buck–boost converter solution didn't work well enough for me)
+* A simple, self-designed [perfboard for the hook switch](/doc/Circuits.md#hook-switch-circuit) and to be able to read the pulses of the dial cleanly
+* A small strip grid board for the [Duo-LED control](/doc/Circuits.md#duo-led-control-circuit)
+* A few small parts like hexagon nylon spacers, jack plugs and cables
+* Superglue and baking soda
 
 ## Preparing and testing the system
 1. Follow the instruction here: https://github.com/raspberrypi/rpi-imager to install the Raspberry Pi Imager for your operating system
@@ -23,7 +28,7 @@ Actually, I just wanted to show my kids that phones didn't always look like this
     * Enable SSH in the services tab
 4. Start the Pi Zero and install the required packages
     ```Shell
-    $ sudo apt install linphone-nogtk pulseaudio doxygen python3-pip python3-RPi.GPIO python3-pystache python3-six
+    $ sudo apt install linphone-nogtk pulseaudio doxygen python3-pip python3-rpi-lgpio python3-pystache python3-six
     ```
 5. Poweroff the Pi Zero (to prevent an unwanted restart bacause of the inrush current problem)
     ```Shell
@@ -88,6 +93,52 @@ Actually, I just wanted to show my kids that phones didn't always look like this
 
         > [!NOTE]
         > Apparently the prefix sip: and the @hostname part was or is not necessary, but it already led to the error message "Error from linphone_core_invite" for me dialing without the prefix. 
+11. Setup Python and install the project
+    * Change to the home directory
+    ```Shell
+    $ cd ~
+    ```    
+    * Clone the w3FeTAp project repository
+    ```Shell
+    $ git clone https://github.com/friedeas/w3FeTAp
+    ```
+    * Create a virtual Python environment in this folder (allow usage of system packages and name it pyenv)
+    ```Shell
+    $ python3 -m venv --system-site-packages --prompt pyenv ~/w3FeTAp/pyenv
+    ```
+    * Change to the w3FeTAp directory
+    ```Shell
+    $ cd w3FeTAp
+    ```
+    * Install w3FeTAp via pip (the -e switch is optional but would allow you to edit the Python files)
+    ```Shell
+    $ pip install -e .
+    ```
+12. Start the w3FeTAp app manually
+    * Configure your SIP account
+    The sip.config file nned to contain the following variables</br>
+    username=</br>
+    host=</br>
+    password=</br>
+    ```Shell
+    $ nano ~/w3FeTAp/sip.config
+    ```    
+    * Start the app manually
+    ```Shell
+    $ python -m w3_fetap.w3_fetap_app
+    ```
+    * If everything worked well, the green LED should flash briefly and then remain permanently green and no error messages should appear in the console.
+    * If you encounter issues try to use the Python scripts in the tests folder to solve them
+13. Automate the start if you wish
+    * Use .bashrc to automatically start w3FeTAp
+    ```Shell
+    $ nano .bashrc
+    ```
+    * Add the following line as the last entry in this file. The flock command ensures that w3FeTAp is only launched once.
+    ```Shell
+    flock -n ~/w3FeTAp/w3lockfile ~/w3FeTAp/w3fetap-service.sh &
+    ```
+    
 
 ## Third-Party Software
 The folder "[bell ringer](bell%20ringer/)" contains code from the project [Telefonklingel mit Tiny25 ansteuern](https://www.mikrocontroller.net/topic/77664) under the [GNU General Public License, Version 2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html.en).

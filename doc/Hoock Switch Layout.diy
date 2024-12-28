@@ -903,11 +903,11 @@
       <alpha>127</alpha>
       <value></value>
       <controlPoints>
-        <point x="3.3" y="0.6"/>
-        <point x="5.268503937007875" y="1.348031496062992"/>
+        <point x="3.3" y="0.585"/>
+        <point x="5.268503937007875" y="1.333031496062992"/>
       </controlPoints>
-      <firstPoint x="3.3" y="0.6"/>
-      <secondPoint x="5.268503937007875" y="1.348031496062992"/>
+      <firstPoint x="3.3" y="0.585"/>
+      <secondPoint x="5.268503937007875" y="1.333031496062992"/>
       <color hex="ffffff"/>
       <borderColor hex="000000"/>
       <borderThickness value="0.5" unit="mm"/>
@@ -917,8 +917,8 @@
       <name>LN1</name>
       <alpha>127</alpha>
       <points>
-        <point x="4.2448818897637794" y="1.348031496062992"/>
-        <point x="4.2448818897637794" y="1.1905511811023621"/>
+        <point x="4.2448818897637794" y="1.333031496062992"/>
+        <point x="4.2448818897637794" y="1.175551181102362"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -953,8 +953,8 @@
       <name>LN2</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="1.1905511811023621"/>
-        <point x="5.268503937007875" y="1.1905511811023621"/>
+        <point x="3.3" y="1.175551181102362"/>
+        <point x="5.268503937007875" y="1.175551181102362"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -989,8 +989,8 @@
       <name>LN3</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="0.8755905511811022"/>
-        <point x="5.268503937007875" y="0.8755905511811022"/>
+        <point x="3.3" y="0.8605905511811023"/>
+        <point x="5.268503937007875" y="0.8605905511811023"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1025,8 +1025,8 @@
       <name>LN4</name>
       <alpha>127</alpha>
       <points>
-        <point x="3.3" y="1.033070866141732"/>
-        <point x="5.268503937007875" y="1.033070866141732"/>
+        <point x="3.3" y="1.018070866141732"/>
+        <point x="5.268503937007875" y="1.018070866141732"/>
         <point x="0.0" y="0.0"/>
       </points>
       <bodyColor hex="ffffff"/>
@@ -1231,7 +1231,7 @@
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>LAB1</name>
-      <point x="4.323622047244095" y="1.2692913385826774"/>
+      <point x="4.323622047244095" y="1.2542913385826773"/>
       <text>revision</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1241,7 +1241,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB2</name>
-      <point x="4.756692913385828" y="1.2692913385826774"/>
+      <point x="4.756692913385828" y="1.2542913385826773"/>
       <text>2.0.0</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
@@ -1251,7 +1251,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB3</name>
-      <point x="3.378740157480315" y="1.2692913385826774"/>
+      <point x="3.358740157480315" y="1.2542913385826773"/>
       <text>updated</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1261,7 +1261,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB4</name>
-      <point x="3.733070866141732" y="1.2692913385826774"/>
+      <point x="3.7180708661417317" y="1.2542913385826773"/>
       <text>12/13/2024</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
@@ -1271,7 +1271,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB5</name>
-      <point x="3.5362204724409447" y="0.9543307086614174"/>
+      <point x="3.5012204724409446" y="0.9443307086614174"/>
       <text>drawn by</text>
       <font reference="../../diylc.misc.Label/font"/>
       <color hex="000000"/>
@@ -1281,7 +1281,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB6</name>
-      <point x="3.4574803149606304" y="0.6787401574803149"/>
+      <point x="3.4574803149606304" y="0.663740157480315"/>
       <text>title</text>
       <font reference="../../diylc.misc.Label/font"/>
       <color hex="000000"/>
@@ -1291,7 +1291,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB7</name>
-      <point x="4.2448818897637794" y="0.9543307086614174"/>
+      <point x="3.8748818897637793" y="0.9393307086614174"/>
       <text>friedeas</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
@@ -1301,7 +1301,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB8</name>
-      <point x="4.2448818897637794" y="0.75748031496063"/>
+      <point x="4.2448818897637794" y="0.7424803149606299"/>
       <text>w3FeTAp Hoock</text>
       <font name="Dialog.bold" size="20" style="1"/>
       <color hex="0000ff"/>
@@ -1311,7 +1311,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB9</name>
-      <point x="3.378740157480315" y="1.1118110236220473"/>
+      <point x="3.358740157480315" y="1.0968110236220472"/>
       <text>website</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
@@ -1321,7 +1321,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB10</name>
-      <point x="4.4" y="1.1"/>
+      <point x="4.36" y="1.1"/>
       <text>https://github.com/friedeas/w3FeTAp</text>
       <font name="Dialog.bold" size="14" style="1"/>
       <color hex="000000"/>
@@ -1331,8 +1331,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB11</name>
-      <point x="3.1" y="2.9"/>
-      <text>Input 3.3v</text>
+      <point x="2.865" y="2.9"/>
+      <text>GPIO 25 Hook Out (3,3V)</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1341,8 +1341,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB12</name>
-      <point x="3.1" y="3.0"/>
-      <text>GPIO h1</text>
+      <point x="2.965" y="3.0"/>
+      <text>GPIO 23 Hook In 1</text>
       <font reference="../../diylc.misc.Label[11]/font"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1351,8 +1351,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB13</name>
-      <point x="3.1" y="3.1"/>
-      <text>GPIO h2</text>
+      <point x="2.965" y="3.1"/>
+      <text>GPIO 24 Hook In 2</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1371,8 +1371,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB15</name>
-      <point x="2.4" y="1.6"/>
-      <text>GPIO d1</text>
+      <point x="2.115" y="1.6"/>
+      <text>GPIO 5 Rotary Dial In Green</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1381,8 +1381,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB16</name>
-      <point x="2.4" y="1.7"/>
-      <text>GPIO d2</text>
+      <point x="2.12" y="1.695"/>
+      <text>GPIO 6 Rotary Dial In Brown</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1391,8 +1391,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB17</name>
-      <point x="2.3" y="1.2"/>
-      <text>Rotary Dial 1</text>
+      <point x="2.265" y="1.2"/>
+      <text>Rotary Dial Green</text>
       <font name="Dialog.plain" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -1401,9 +1401,54 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>LAB18</name>
-      <point x="2.3" y="1.3"/>
-      <text>Rotary Dial 2</text>
+      <point x="2.2649999999999997" y="1.3"/>
+      <text>Rotary Dial Brown</text>
       <font name="Dialog.plain" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.connectivity.Line>
+      <name>LN5</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="4.2448818897637794" y="1.018031496062992"/>
+        <point x="4.2448818897637794" y="0.8605511811023621"/>
+        <point x="0.0" y="0.0"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <color hex="000000"/>
+      <style>SOLID</style>
+      <thickness value="0.2" unit="mm"/>
+      <arrowSize value="5.0" unit="px"/>
+      <arrowTx reference="../../diylc.connectivity.Line/arrowTx"/>
+      <arrowStart>false</arrowStart>
+      <arrowEnd>false</arrowEnd>
+    </diylc.connectivity.Line>
+    <diylc.misc.Label>
+      <name>LAB19</name>
+      <point x="4.391220472440945" y="0.9443307086614174"/>
+      <text>license</text>
+      <font reference="../../diylc.misc.Label/font"/>
+      <color hex="000000"/>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB20</name>
+      <point x="4.884881889763779" y="0.9443307086614174"/>
+      <text>CC BY-NC-SA 4.0</text>
+      <font reference="../../diylc.misc.Label[7]/font"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
       <verticalAlignment>CENTER</verticalAlignment>
@@ -1412,21 +1457,21 @@
   </components>
   <groups>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
-      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[7]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
       <diylc.shapes.Rectangle reference="../../../components/diylc.shapes.Rectangle"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[2]"/>
       <diylc.misc.Label reference="../../../components/diylc.misc.Label[9]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[6]"/>
       <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[4]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[4]"/>
+      <diylc.connectivity.Line reference="../../../components/diylc.connectivity.Line"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[10]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[5]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[8]"/>
     </set>
   </groups>
   <lockedLayers/>
